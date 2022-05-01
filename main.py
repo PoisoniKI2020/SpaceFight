@@ -1,9 +1,11 @@
 import socket
 from kivy.app import App
+from kivy.uix.button import Button
 
 
 class MyApp(App):
-    pass
+    def build(self):
+        return Button()
 
 
 if __name__ == "__main__":
